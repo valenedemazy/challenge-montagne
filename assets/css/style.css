@@ -47,4 +47,29 @@
     height: 80vw;
     width: 100vw;
   }
+
+  .items.style1{
+
+flex-wrap: nowrap;
+flex-direction: column;
+
+  }
+
+
+  .items.style1.medium > *{
+
+    padding: 0;
+    width: 80vw;
+    max-width: 48rem;
+    margin: 0 auto;
+    border:0;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+
+  .wrapper.style1 > .inner{
+
+      padding:0;
+  }
+  
 }
