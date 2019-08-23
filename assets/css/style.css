@@ -70,6 +70,22 @@ flex-direction: column;
   .wrapper.style1 > .inner{
 
       padding:0;
+      
   }
+  form > .fields > .field.half{
+
+
+    width: 100%;
+    
+  }
+  form > .fields > .field{
   
+justify-content: center;
+flex-grow: initial;
+flex-shrink: initial;
+padding: 0;
+
+
+
+  }
 }
