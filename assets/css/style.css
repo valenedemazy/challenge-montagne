@@ -1,0 +1,50 @@
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 576px) {
+  body {
+    /*background-color: blue;*/
+  }
+/*TOUTE LA PAGE*/
+  #wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+/*BANNER*/
+  #wrapper.divided>*:first-child {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .banner.style1 .image {
+    height: 80vw;
+    width: 100vw;
+  }
+
+  .banner.style1 .content {
+    padding: 0;
+    width: 80vw;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+/*ONE*/
+  #wrapper.divided > * {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .spotlight.style1 .content {
+    align-self: auto;
+    padding: 0;
+    width: 80vw;
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .spotlight.style1 .image img{
+    position: relative;
+    height: 80vw;
+    width: 100vw;
+  }
+}
